@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icons/" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="result__overlay"></div>
+    <div class="result__modal">
+        <p>Well done!</p>
+        <h3 class="result__message" id="winner"></h3>
+        <div class="result__modal-actions">
+            <button class="btn leave" id="leave">Leave game</button>
+            <button class="btn next" id="next">Next round</button>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__logo">
+            <img src="./assets/icons/grid.svg" alt="TTT Logo">
+        </div>
+        <h1 class="header__title">Tic-Tac-Toe</h1>
+        <button class="header__reset" id="reset-btn">
+            <img src="./assets/icons/restart.svg" alt="Restart">
+        </button>
+    </header>
+    <main>
+        <section class="gamestart__section hidden"></section>
+        <section class="gameboard__section">
+            <div class="cell available" data-index="0"></div>
+            <div class="cell available" data-index="1"></div>
+            <div class="cell available" data-index="2"></div>
+            <div class="cell available" data-index="3"></div>
+            <div class="cell available" data-index="4"></div>
+            <div class="cell available" data-index="5"></div>
+            <div class="cell available" data-index="6"></div>
+            <div class="cell available" data-index="7"></div>
+            <div class="cell available" data-index="8"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="attribution">
+            <!-- <p>Made by <a href="https://github.com/Daviddp96">Axel</a></p> -->
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
