@@ -8,4 +8,3 @@ for(let i = 0; i < gameBoard.length; i++){
     gameBoardCells.push(gameBoard[i])
 }
 
-console.log(gameBoardCells);
