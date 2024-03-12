@@ -7,6 +7,16 @@
     --clr-red: #BB0A21;
 } 
 
+.O-input{
+    position: relative;
+    left: -2%;
+}
+
+.X-input{
+    position: relative;
+    left: -1%;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -129,6 +139,7 @@ main {
     grid-template-rows: repeat(3,1fr);
     grid-template-columns: repeat(3, 1fr);
     gap: 1.2rem;
+    margin-top: 2%;
 }
 
 .cell {
