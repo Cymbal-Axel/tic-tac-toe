@@ -22,7 +22,7 @@
             <img src="./assets/icons/grid.svg" alt="TTT Logo">
         </div>
         <h1 class="header__title">Tic-Tac-Toe</h1>
-        <button class="header__reset" id="reset-btn">
+        <button class="header__reset" id="reset-btn" onclick="limpiarTablero()">
             <img src="./assets/icons/restart.svg" alt="Restart">
         </button>
     </header>
@@ -31,24 +31,24 @@
         <div class="input-jugador">
             <div>
                 <label class="X-input">X:</label>
-                <input placeholder="Nombre Jugador">
+                <input id="input-X" placeholder="Nombre Jugador">
             </div>
             <div class="O-input">
                 <label>O:</label>
-                <input placeholder="Nombre Jugador">
+                <input id="input-O" placeholder="Nombre Jugador">
             </div>
         </div>
         <section class="gamestart__section hidden"></section>
         <section class="gameboard__section">
-            <div class="cell available" id="0" onclick="ejecutarTurno(this)"></div>
-            <div class="cell available" id="1" onclick="ejecutarTurno(this)"></div>
-            <div class="cell available" id="2" onclick="ejecutarTurno(this)"></div>
-            <div class="cell available" id="3" onclick="ejecutarTurno(this)"></div>
-            <div class="cell available" id="4" onclick="ejecutarTurno(this)"></div>
-            <div class="cell available" id="5" onclick="ejecutarTurno(this)"></div>
-            <div class="cell available" id="6" onclick="ejecutarTurno(this)"></div>
-            <div class="cell available" id="7" onclick="ejecutarTurno(this)"></div>
-            <div class="cell available" id="8" onclick="ejecutarTurno(this)"></div>
+            <div class="cell" id="0" onclick="ejecutarTurno(this)"></div>
+            <div class="cell" id="1" onclick="ejecutarTurno(this)"></div>
+            <div class="cell" id="2" onclick="ejecutarTurno(this)"></div>
+            <div class="cell" id="3" onclick="ejecutarTurno(this)"></div>
+            <div class="cell" id="4" onclick="ejecutarTurno(this)"></div>
+            <div class="cell" id="5" onclick="ejecutarTurno(this)"></div>
+            <div class="cell" id="6" onclick="ejecutarTurno(this)"></div>
+            <div class="cell" id="7" onclick="ejecutarTurno(this)"></div>
+            <div class="cell" id="8" onclick="ejecutarTurno(this)"></div>
         </section>
     </main>
     <footer>
